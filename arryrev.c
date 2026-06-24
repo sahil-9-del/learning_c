@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 
-void arryrev(int *ptr){
+void arryrev(int *ptr)
+{
     for (int i = 0, j = 5;i<j; j--, i++)
     {
         int temp= *(ptr + i);
